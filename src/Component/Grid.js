@@ -2,9 +2,21 @@ import React from 'react';
 import './Grid.css'
 const Grid = () => {
     return (
-        <div className='container'>
+
+        <div className='container '>
+              <div style={{marginBottom:"80px"}}>
+              <nav className='navbar navbar-expand-sm bg-primary navbar-dark fixed-top'>
+                    <a className='navbar-brand' href="#">Logo</a>
+
+                    <ul className='navbar-nav'>
+                        <li className='nav-item'><a className='nav-link' href="#">Home</a></li>
+                        <li className='nav-item'><a className='nav-link' href="#">Contact</a></li>
+                        <li className='nav-item'><a className='nav-link' href="#">Card</a></li>
+                    </ul>
+                </nav>
+              </div>
             {/* row */}
-            <div className="row">
+            <div className="row ">
                 <div className="col-12 col-md-4">1</div>
                 <div className="col-12 col-md-6">2</div>
                 <div className="col-12 col-md-2">3</div>
